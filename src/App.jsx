@@ -1,13 +1,20 @@
-import '../dist/output.css';
+import './app.css';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 function App() {
 
 
   return (
     <>
-      <div className="bg-black">
-        <div className="text-xl bg-black font-medium text-white">ChitChat</div>
-        <p className="text-slate-500 bold text-white">You have a new message!</p>
+      <div >
+        <div className='navbar'>
+          <a className="navbuttons" href="#">Home</a>
+          <a className="navbuttons" href="#">Projects</a>
+          <a className="navbuttons" href="#">Connect</a>
+        </div>
+
+
+        <div className='background'></div>
       </div>
     </>
   )
