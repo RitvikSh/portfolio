@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client';
 import Navbar from './Navbar.jsx';
-import Cmodel from './Cmodel.jsx'
+import Cmodel from './Cmodel.jsx';
 
 
 
