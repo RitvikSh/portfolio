@@ -30,3 +30,11 @@ body {
     top: 0;
     z-index: 3;
 }
+
+.deskmenulist {
+    padding: 2rem;
+}
+
+.deskmenubut {
+    background-color: white;
+}
