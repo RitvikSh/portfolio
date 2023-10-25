@@ -1,5 +1,6 @@
 import Logo from '../assets/Logo.png';
 import { Link } from 'react-scroll';
+import contact from '../assets/messenger.png';
 
 function Navbar() {
     return (
@@ -13,7 +14,7 @@ function Navbar() {
                     <Link className="deskmenulist">Skills</Link>
                 </div>
                 <button className="deskmenubt">
-                    <img src="" alt="" className="deskmenuing" />
+                    <img src={contact} alt="message" className="deskmenuimg" />
                     Contact Me
                 </button>
             </nav>
