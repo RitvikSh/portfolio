@@ -1,9 +1,9 @@
-
+import "./about.css";
 
 function About() {
     return (
         <div>
-            About
+            About me
         </div>
     )
 }

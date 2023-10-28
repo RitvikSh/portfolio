@@ -1,6 +1,7 @@
-import Logo from '../assets/Logo.png';
+import Logo from '../../assets/Logo.png';
 import { Link } from 'react-scroll';
-import contact from '../assets/messenger.png';
+import contact from '../../assets/messenger.png';
+import "../navbar/navbar.css";
 
 function Navbar() {
     return (
