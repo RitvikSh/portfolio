@@ -1,0 +1,30 @@
+.aboutsection {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: auto;
+}
+
+.aboutimg {
+    width: 400px;
+    border-radius: 1000px;
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+.aboutName {
+    color: yellow;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 100;
+}
+
+.aboutme1 {
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 700;
+}
+
+.aboutme2 {
+    font-size: 30px;
+}
