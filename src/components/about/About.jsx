@@ -11,7 +11,9 @@ function About() {
                 <p className="aboutme2">
                     I am software engineer.
                 </p>
-                <button className="resume">resume</button>
+                <a href="https://drive.google.com/drive/folders/1b6gQIQhLcNnj6hH1c3Z_G1YEOlVhu04F?usp=sharing">
+                    <button className="resume">resume</button>
+                </a>
             </div>
             <img src={portfolio} className="aboutimg" alt="that's how I look" />
         </div>
